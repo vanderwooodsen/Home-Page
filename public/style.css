@@ -1,21 +1,50 @@
-body {
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Tajawal&display=swap');
+
+#homepage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#quote {
+  color: rgba(255, 255, 255, 0.603);
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
 }
 
-a {
-  text-decoration: none;
+.author {
+  text-align: right;
 }
 
-label {
-  display: block;
+#questions {
+  color: rgb(255, 255, 255);
+  font-family: 'Tajawal', sans-serif;
+  font: bold;
+  font-size: 28px;
 }
 
-nav a {
-  display: inline-block;
-  margin: 1em;
+#trivia {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 80px;
 }
 
-form div {
-  margin: 1em;
-  display: inline-block;
+.buttons {
+  justify-content: center;
+}
+
+#search {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 50%;
 }
